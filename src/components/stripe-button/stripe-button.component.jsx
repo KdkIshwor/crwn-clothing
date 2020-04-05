@@ -7,7 +7,7 @@ const StripeCheckoutButton = ({ price }) => {
 
   const onToken = token => {
         console.log(token);
-        alert('Payment Successful');
+        alert('Thanks for buying from Khadka ecommerce' );
     };
 
     return (
